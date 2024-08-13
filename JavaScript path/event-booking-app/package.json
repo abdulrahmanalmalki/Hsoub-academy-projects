@@ -1,0 +1,32 @@
+{
+  "name": "event-booking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.1",
+    "apollo-link-context": "^1.0.20",
+    "apollo-server-core": "^3.6.3",
+    "apollo-server-express": "^3.6.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "graphql-resolvers": "^0.4.2",
+    "graphql-subscriptions": "^1.2.1",
+    "graphql-ws": "^5.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.2",
+    "nodemon": "^3.1.4",
+    "react-bootstrap": "^2.1.0",
+    "reactstrap": "^8.10.1",
+    "ws": "^8.5.0"
+  }
+}
